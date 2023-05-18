@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+/* ============Header=============== */
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 9888;
+}
+header nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+header nav a i.fa-bars{
+    display: none;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;  
+}
+header nav ul li{
+    margin: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #adadad;
+}
+header nav ul li a:hover{
+    color: #00aeff;
+
+}
+header nav ul li .start{
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 5px;
+}
+header nav ul li .start:hover{
+    background-color: blue;
+    color: white;
+}
+header nav div h2{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+header nav div h2 span:first-child{
+    color:chocolate;
+}
+header nav div h2 span:last-child{
+    color:cornflowerblue ;
+}
+/* ===========main#1 ================ */
+#main1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+#main1 #caption{
+    width: 40%;
+    height: auto;
+    text-align: end;
+    position: absolute;
+    top: 150px;
+    right: 80px;
+}
+#main1 #caption h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+#main1 #caption p{
+    font-size: 25px;
+    color:rgb(136, 112, 112);
+}
+#main1 #caption button{
+    background-color: #00d0ff;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin: 20px;
+    border: #00d0ff ;
+}
+#main1 #caption button:hover{
+    background-color:#006eff;
+    transition: all 1s;
+}
+#main1 section img{
+   animation-name: animate;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+@keyframes animate {
+    50%{
+        transform: translateY(20px);
+    }
+}
+
+/* =============main#2 ================= */
+#main2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#main2 section{
+    width: 40%;  
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(239, 239, 239);
+    text-align: end;
+}
+#main2 section i{
+    color: #00d0ff;
+    font-size: 25px;
+}
+#main2 section h3{
+    margin: 20px 0px;
+}
+#main2 section h3 a{
+    text-decoration: none;
+    color: #adadad;
+   
+}
+/* ============main#3======= */
+#main3{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+#main3 section:first-child{
+    width: 40%;  
+    margin: auto;
+    padding: 20px;
+    text-align: end;
+}
+#main3 section:last-child{
+    width: 40%;  
+    margin: auto;
+    padding: 20px;   
+}
+#main3 section img{
+  width: 100%;
+}
+#main3 section h3{
+    font-size: 30px;
+    color: #adadad;
+    margin-bottom: 10px;
+}
+/* ==========main#4========= */
+#main4{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    background-color: aliceblue;
+}
+#main4 section:first-child{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+#main4 .divs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#main4 section:last-child{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+#main4 div{
+    width: 20%;
+    height: 100px;
+    margin: 10px;
+    background-color: #ffffff;
+    text-align: center;
+}
+#main4 div i{
+    font-size: 30px;
+    color:#00d0ff;
+    margin-top: 10px;
+}
+#main4 div a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+
+/* ======main#5========= */
+#main5{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 50px;
+}
+#main5 div:first-child{
+    text-align: center;
+    padding: 20px;
+}
+#main5 section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+#main5 section div:first-child{
+    width: 50%;
+    height: auto;
+    background-color: #d3d3d3;
+    display: inline-block;
+
+}
+#main5 section div:first-child input{
+    width: 90%;
+    height:50px;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+#main5 section div:first-child button{
+    margin: 30px;
+    width: 20%;
+    height: 40px;
+    background-color: #00aeff;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+#main5 section div:first-child button:hover{
+    background-color: #006eff;
+}
+#main5 section div:first-child label{
+   display: block;
+}
+#main5 section div:last-child{
+    width: 40%;
+    height: auto;
+    background-color: #e3e3e3;
+
+}
+#main5 section div:last-child iframe{
+    width: 100%;
+}
+#main5 section div:last-child p,h3{
+    text-align: end;
+    padding: 10px;
+}
+#main5 section div:last-child span{
+    position: relative;
+}
+#main5 section div:last-child i{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+   
+}
+/* =========main#6============== */
+#main6{
+    background-color: #eeeeee;
+}
+#main6 div h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: #737373;
+}
+#main6 .media{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#main6 .media a{
+    color: #767676;
+    font-size: 30px;
+    background-color: #adadad;
+    margin: 30px;
+    border-radius:4px;
+
+}
+#main6 .media a:hover{
+    background-color: #00d0ff;
+}
+#main6 .media a i{
+    width: 50px;
+    height: 50px;
+}
+#main6 .footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+}
+#main6 .footer h5 span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ========media query========= */
+@media (max-width:992px){
+    header nav ul{
+        display: none;
+    }
+    header nav a i.fa-bars{
+        display:inline-block ;
+        font-size: 30px;
+        margin: 30px;
+    }
+    header nav div h2{
+        margin: 30px;
+    }
+    #main1{
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+    }
+    #main1 section:first-child{
+        text-align: center;
+        width: 90%;
+    }
+    #main1 section:first-child img{
+        width: 50%;
+        
+    }
+    #main1 #caption{
+        padding-top: 100px;
+        width: 80%;
+
+    }
+
+    /* #main3{
+        display: flex;
+        flex-wrap: wrap;
+    } */
+    #main3 section:first-child{
+        width: 80%;
+    }
+
+    #main4 .divs div{
+        width: 45%;
+    }
+    
+}
+/* ======phone============== */
+@media  (max-width:768px){
+    header nav{
+        height: 60px;
+    }
+    header nav ul{
+        display: none;
+    }
+    header nav a i.fa-bars{
+        display:inline-block ;
+        font-size: 30px;
+        margin: 30px;
+    }
+    header nav div h2{
+        margin: 30px;
+    }
+    #main1{
+        height: 100vh;
+    }
+    #main1 section:first-child{
+        text-align: center;
+        padding-top: 50px;
+        /* width: 90%; */
+    }
+    #main1 section:first-child img{
+        width: 50%;
+        
+    }
+    #main1 #caption{
+        padding-top: 100px;
+        width: 80%;
+        margin: auto;
+        
+    }
+
+
+    #main2 section{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+
+    #main3 section{
+        width: 80%;
+    }
+    #main4 .divs div{
+        width: 90%;
+       margin-left:20px ;
+    }
+
+
+    #main5 section {
+       width: 90%;
+       margin: auto;
+    }
+    #main5 section div:first-child{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    #main5 section div:last-child{
+        width: 90%;
+        margin: auto;
+    }
+}
